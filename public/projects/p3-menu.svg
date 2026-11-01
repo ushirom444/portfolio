@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3bBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180F05" />
+      <stop offset="100%" stop-color="#0A0602" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="340" fill="url(#p3bBg)" rx="24"/>
+  <rect x="1" y="1" width="418" height="338" fill="none" stroke="rgba(255,170,0,0.25)" stroke-width="1.5" rx="23"/>
+
+  <text x="30" y="40" fill="#FFAA00" font-family="monospace" font-size="11" letter-spacing="1">INTERACTIVE FOOD CATALOG</text>
+  <text x="30" y="65" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">LIVE ORDER CALCULATION</text>
+
+  <!-- Menu Item cards -->
+  <g transform="translate(30, 90)">
+    <rect width="360" height="52" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,170,0,0.2)"/>
+    <circle cx="30" cy="26" r="14" fill="#FFAA00"/>
+    <text x="30" y="31" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="14" text-anchor="middle">🍕</text>
+    <text x="56" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="13">Artisan Woodfired Pizza</text>
+    <text x="56" y="40" fill="rgba(255,255,255,0.4)" font-family="system-ui" font-size="10">Italian herbs, buffalo mozzarella</text>
+    <text x="300" y="32" fill="#FFAA00" font-family="system-ui" font-weight="700" font-size="14">$18.50</text>
+  </g>
+
+  <g transform="translate(30, 155)">
+    <rect width="360" height="52" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,170,0,0.2)"/>
+    <circle cx="30" cy="26" r="14" fill="#FF8800"/>
+    <text x="30" y="31" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="14" text-anchor="middle">🍔</text>
+    <text x="56" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="13">Double Wagyu Smash Burger</text>
+    <text x="56" y="40" fill="rgba(255,255,255,0.4)" font-family="system-ui" font-size="10">Brioche bun, smoked cheddar</text>
+    <text x="300" y="32" fill="#FFAA00" font-family="system-ui" font-weight="700" font-size="14">$15.00</text>
+  </g>
+
+  <!-- Dynamic JS Tax Summary -->
+  <g transform="translate(30, 230)">
+    <rect width="360" height="80" rx="14" fill="rgba(255,170,0,0.08)" stroke="rgba(255,170,0,0.25)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.6)" font-family="monospace" font-size="11">SUBTOTAL: $33.50 · GST (5%): $1.68</text>
+    <text x="20" y="58" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="18">FINAL AMOUNT: $35.18</text>
+  </g>
+</svg>

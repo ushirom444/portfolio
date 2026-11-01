@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p6bBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081420" />
+      <stop offset="100%" stop-color="#02080E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="340" fill="url(#p6bBg)" rx="24"/>
+  <rect x="1" y="1" width="418" height="338" fill="none" stroke="rgba(20,184,166,0.25)" stroke-width="1.5" rx="23"/>
+
+  <text x="30" y="40" fill="#14B8A6" font-family="monospace" font-size="11" letter-spacing="1">FACILITY AUTOMATION</text>
+  <text x="30" y="65" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">CAMPUS ENERGY &amp; ACCESS</text>
+
+  <!-- Controls list -->
+  <g transform="translate(30, 95)">
+    <rect width="360" height="52" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(20,184,166,0.2)"/>
+    <circle cx="28" cy="26" r="12" fill="#14B8A6"/>
+    <text x="28" y="30" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">⚡</text>
+    <text x="55" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="13">Solar Energy Grid (Library Wing)</text>
+    <text x="55" y="40" fill="#00FF9D" font-family="system-ui" font-size="10">Generating 45 kW · Battery 92%</text>
+  </g>
+
+  <g transform="translate(30, 160)">
+    <rect width="360" height="52" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(59,130,246,0.2)"/>
+    <circle cx="28" cy="26" r="12" fill="#3B82F6"/>
+    <text x="28" y="30" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">🚪</text>
+    <text x="55" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="13">Automated Access Gate (North Gate)</text>
+    <text x="55" y="40" fill="#3B82F6" font-family="system-ui" font-size="10">RFID &amp; Face Recognition Online</text>
+  </g>
+
+  <g transform="translate(30, 225)">
+    <rect width="360" height="52" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(20,184,166,0.2)"/>
+    <circle cx="28" cy="26" r="12" fill="#00FF9D"/>
+    <text x="28" y="30" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">💡</text>
+    <text x="55" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="13">Smart Lighting (Main Auditorium)</text>
+    <text x="55" y="40" fill="#00FF9D" font-family="system-ui" font-size="10">Occupancy Auto-dimming Active</text>
+  </g>
+</svg>

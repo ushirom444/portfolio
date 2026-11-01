@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3TallBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140C04" />
+      <stop offset="50%" stop-color="#241508" />
+      <stop offset="100%" stop-color="#080502" />
+    </linearGradient>
+    <linearGradient id="p3GoldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFAA00" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="580" fill="url(#p3TallBg)" rx="32"/>
+  <rect x="1" y="1" width="718" height="578" fill="none" stroke="rgba(255,170,0,0.25)" stroke-width="2" rx="31"/>
+
+  <!-- Top POS Bar -->
+  <g transform="translate(35, 30)">
+    <rect width="650" height="52" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,170,0,0.2)"/>
+    <text x="25" y="33" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="16" letter-spacing="1">SMART RESTAURANT POS &amp; BILLING TERMINAL</text>
+    <rect x="520" y="12" width="110" height="28" rx="14" fill="url(#p3GoldGrad)"/>
+    <text x="575" y="30" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">NEW ORDER +</text>
+  </g>
+
+  <!-- Left: Floor Table Grid (3D perspective) -->
+  <g transform="translate(35, 105)">
+    <rect width="400" height="435" rx="20" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="25" y="35" fill="#FFAA00" font-family="monospace" font-size="11">LIVE FLOOR MANAGEMENT (12 TABLES)</text>
+
+    <!-- Table Nodes -->
+    <!-- Table 1 Occupied -->
+    <g transform="translate(30, 60)">
+      <rect width="105" height="100" rx="14" fill="rgba(255,170,0,0.12)" stroke="#FFAA00" stroke-width="1.5"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 01</text>
+      <text x="52" y="52" fill="#FFAA00" font-family="monospace" font-size="11" text-anchor="middle">$82.40</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="#FFAA00"/>
+      <text x="52" y="81" fill="#0C0C0C" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">OCCUPIED</text>
+    </g>
+
+    <!-- Table 2 Free -->
+    <g transform="translate(150, 60)">
+      <rect width="105" height="100" rx="14" fill="rgba(0,255,157,0.05)" stroke="rgba(0,255,157,0.3)"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 02</text>
+      <text x="52" y="52" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="11" text-anchor="middle">$0.00</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="rgba(0,255,157,0.2)"/>
+      <text x="52" y="81" fill="#00FF9D" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">AVAILABLE</text>
+    </g>
+
+    <!-- Table 3 Billing -->
+    <g transform="translate(270, 60)">
+      <rect width="105" height="100" rx="14" fill="rgba(0,240,255,0.08)" stroke="#00F0FF" stroke-width="1.5"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 03</text>
+      <text x="52" y="52" fill="#00F0FF" font-family="monospace" font-size="11" text-anchor="middle">$145.00</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="#00F0FF"/>
+      <text x="52" y="81" fill="#0C0C0C" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">BILL READY</text>
+    </g>
+
+    <!-- Row 2 Tables -->
+    <g transform="translate(30, 180)">
+      <rect width="105" height="100" rx="14" fill="rgba(255,170,0,0.12)" stroke="#FFAA00"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 04</text>
+      <text x="52" y="52" fill="#FFAA00" font-family="monospace" font-size="11" text-anchor="middle">$54.60</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="#FFAA00"/>
+      <text x="52" y="81" fill="#0C0C0C" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">OCCUPIED</text>
+    </g>
+
+    <g transform="translate(150, 180)">
+      <rect width="105" height="100" rx="14" fill="rgba(255,170,0,0.12)" stroke="#FFAA00"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 05</text>
+      <text x="52" y="52" fill="#FFAA00" font-family="monospace" font-size="11" text-anchor="middle">$110.20</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="#FFAA00"/>
+      <text x="52" y="81" fill="#0C0C0C" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">OCCUPIED</text>
+    </g>
+
+    <g transform="translate(270, 180)">
+      <rect width="105" height="100" rx="14" fill="rgba(0,255,157,0.05)" stroke="rgba(0,255,157,0.3)"/>
+      <text x="52" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13" text-anchor="middle">TABLE 06</text>
+      <text x="52" y="52" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="11" text-anchor="middle">$0.00</text>
+      <rect x="18" y="68" width="70" height="18" rx="9" fill="rgba(0,255,157,0.2)"/>
+      <text x="52" y="81" fill="#00FF9D" font-family="system-ui" font-weight="700" font-size="9" text-anchor="middle">AVAILABLE</text>
+    </g>
+
+    <!-- Bottom summary banner -->
+    <g transform="translate(25, 360)">
+      <rect width="350" height="50" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="20" y="25" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="12">TODAY'S TURNOVER</text>
+      <text x="20" y="40" fill="#FFAA00" font-family="system-ui" font-weight="800" font-size="14">$3,480.00 (42 INVOICES)</text>
+    </g>
+  </g>
+
+  <!-- Right: Digital Receipt / Checkout column -->
+  <g transform="translate(450, 105)">
+    <rect width="235" height="435" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,170,0,0.3)"/>
+    <text x="20" y="35" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="14">CURRENT BILL SLIP</text>
+    <text x="20" y="52" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10">TABLE 04 · KITCHEN #12</text>
+    
+    <line x1="20" y1="65" x2="215" y2="65" stroke="rgba(255,255,255,0.1)"/>
+    
+    <text x="20" y="90" fill="#FFFFFF" font-family="system-ui" font-size="11">Truffle Risotto x1</text>
+    <text x="180" y="90" fill="#FFAA00" font-family="system-ui" font-size="11">$24.00</text>
+
+    <text x="20" y="115" fill="#FFFFFF" font-family="system-ui" font-size="11">Mocktails x2</text>
+    <text x="180" y="115" fill="#FFAA00" font-family="system-ui" font-size="11">$16.00</text>
+
+    <text x="20" y="140" fill="#FFFFFF" font-family="system-ui" font-size="11">Lava Cake x1</text>
+    <text x="180" y="140" fill="#FFAA00" font-family="system-ui" font-size="11">$12.00</text>
+
+    <line x1="20" y1="165" x2="215" y2="165" stroke="rgba(255,255,255,0.1)"/>
+
+    <text x="20" y="195" fill="rgba(255,255,255,0.6)" font-family="system-ui" font-size="11">Subtotal</text>
+    <text x="180" y="195" fill="#FFFFFF" font-family="system-ui" font-size="11">$52.00</text>
+
+    <text x="20" y="215" fill="rgba(255,255,255,0.6)" font-family="system-ui" font-size="11">GST (5%)</text>
+    <text x="180" y="215" fill="#FFFFFF" font-family="system-ui" font-size="11">$2.60</text>
+
+    <line x1="20" y1="230" x2="215" y2="230" stroke="rgba(255,255,255,0.2)"/>
+
+    <text x="20" y="260" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="16">TOTAL</text>
+    <text x="160" y="260" fill="#FFAA00" font-family="system-ui" font-weight="800" font-size="16">$54.60</text>
+
+    <!-- Payment Buttons -->
+    <rect x="20" y="300" width="195" height="42" rx="12" fill="url(#p3GoldGrad)"/>
+    <text x="117" y="326" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="12" text-anchor="middle">COMPLETE PAYMENT</text>
+
+    <rect x="20" y="355" width="195" height="38" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="117" y="379" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="11" text-anchor="middle">SPLIT BILL / CASH</text>
+  </g>
+</svg>

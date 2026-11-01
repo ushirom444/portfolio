@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140D26" />
+      <stop offset="100%" stop-color="#08080E" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B600A8" />
+      <stop offset="100%" stop-color="#7621B0" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+    <filter id="glow1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="420" height="230" fill="url(#bg1)" rx="24"/>
+  <rect x="1" y="1" width="418" height="228" fill="none" stroke="rgba(182,0,168,0.3)" stroke-width="1.5" rx="23"/>
+
+  <!-- Background grid pattern -->
+  <path d="M0 40 H420 M0 80 H420 M0 120 H420 M0 160 H420 M0 200 H420" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <path d="M50 0 V230 M120 0 V230 M190 0 V230 M260 0 V230 M330 0 V230 M400 0 V230" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Cart Header -->
+  <circle cx="40" cy="40" r="16" fill="url(#accent1)" filter="url(#glow1)"/>
+  <path d="M33 36 h4 l3 10 h10 l2 -7 h-13" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="41" cy="49" r="2" fill="#FFFFFF"/>
+  <circle cx="48" cy="49" r="2" fill="#FFFFFF"/>
+
+  <text x="68" y="38" fill="#FFFFFF" font-family="system-ui, sans-serif" font-weight="700" font-size="14" letter-spacing="1">3D CART &amp; CHECKOUT</text>
+  <text x="68" y="52" fill="#00F0FF" font-family="monospace" font-size="10">3 ITEMS IN BUNDLE · TOTAL: $349.00</text>
+
+  <!-- Items list -->
+  <g transform="translate(25, 75)">
+    <rect width="370" height="42" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="8" y="7" width="28" height="28" rx="6" fill="url(#accent1)"/>
+    <text x="46" y="22" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="12">NextGen VR Headset Pro</text>
+    <text x="46" y="34" fill="rgba(255,255,255,0.4)" font-family="system-ui" font-size="10">Qty: 1 · Color: Obsidian Black</text>
+    <text x="310" y="26" fill="#00F0FF" font-family="system-ui" font-weight="700" font-size="13">$249.00</text>
+  </g>
+
+  <g transform="translate(25, 125)">
+    <rect width="370" height="42" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="8" y="7" width="28" height="28" rx="6" fill="url(#neonCyan)"/>
+    <text x="46" y="22" fill="#FFFFFF" font-family="system-ui" font-weight="600" font-size="12">Haptic Cyber Controllers</text>
+    <text x="46" y="34" fill="rgba(255,255,255,0.4)" font-family="system-ui" font-size="10">Qty: 2 · Low Latency RF</text>
+    <text x="310" y="26" fill="#00F0FF" font-family="system-ui" font-weight="700" font-size="13">$100.00</text>
+  </g>
+
+  <!-- Floating Checkout Bar -->
+  <g transform="translate(25, 178)">
+    <rect width="370" height="38" rx="19" fill="url(#accent1)" filter="url(#glow1)"/>
+    <text x="185" y="24" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="12" text-anchor="middle" letter-spacing="1.5">⚡ ONE-CLICK 3D CHECKOUT</text>
+  </g>
+</svg>

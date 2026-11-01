@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4bBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18130B" />
+      <stop offset="100%" stop-color="#0B0905" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="340" fill="url(#p4bBg)" rx="24"/>
+  <rect x="1" y="1" width="418" height="338" fill="none" stroke="rgba(226,192,141,0.25)" stroke-width="1.5" rx="23"/>
+
+  <text x="30" y="40" fill="#E2C08D" font-family="monospace" font-size="11" letter-spacing="1">GUEST FOLIO INVOICE</text>
+  <text x="30" y="65" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">BREAKDOWN OF CHARGES</text>
+
+  <!-- Items list -->
+  <g transform="translate(30, 95)">
+    <rect width="360" height="42" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="15" y="26" fill="#FFFFFF" font-family="system-ui" font-size="12">Room Charges (3 Nights @ $320)</text>
+    <text x="290" y="26" fill="#E2C08D" font-family="system-ui" font-weight="700" font-size="12">$960.00</text>
+  </g>
+
+  <g transform="translate(30, 145)">
+    <rect width="360" height="42" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="15" y="26" fill="#FFFFFF" font-family="system-ui" font-size="12">Spa &amp; Wellness Club Access</text>
+    <text x="290" y="26" fill="#E2C08D" font-family="system-ui" font-weight="700" font-size="12">$140.00</text>
+  </g>
+
+  <g transform="translate(30, 195)">
+    <rect width="360" height="42" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="15" y="26" fill="#FFFFFF" font-family="system-ui" font-size="12">Airport Limousine Transfer</text>
+    <text x="290" y="26" fill="#E2C08D" font-family="system-ui" font-weight="700" font-size="12">$75.00</text>
+  </g>
+
+  <!-- Total voucher -->
+  <g transform="translate(30, 255)">
+    <rect width="360" height="60" rx="14" fill="rgba(226,192,141,0.1)" stroke="rgba(226,192,141,0.3)"/>
+    <text x="20" y="26" fill="rgba(255,255,255,0.6)" font-family="monospace" font-size="10">OCCUPANCY TAX (12%): $141.00</text>
+    <text x="20" y="47" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="17">NET TOTAL: $1,316.00</text>
+  </g>
+</svg>

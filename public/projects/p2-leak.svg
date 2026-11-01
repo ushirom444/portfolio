@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2bBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041220" />
+      <stop offset="100%" stop-color="#01080F" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="340" fill="url(#p2bBg)" rx="24"/>
+  <rect x="1" y="1" width="418" height="338" fill="none" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" rx="23"/>
+
+  <text x="30" y="40" fill="#00F0FF" font-family="monospace" font-size="11" letter-spacing="1">ACOUSTIC LEAK DETECTION</text>
+  <text x="30" y="65" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">PIPELINE NETWORK SCAN</text>
+
+  <!-- 3D Pipeline Graph -->
+  <g transform="translate(40, 90)">
+    <!-- Pipeline segments -->
+    <path d="M20 70 H 120 V 160 H 220 V 60 H 320" fill="none" stroke="rgba(0,240,255,0.2)" stroke-width="8"/>
+    <path d="M20 70 H 120 V 160 H 180" fill="none" stroke="#00F0FF" stroke-width="8"/>
+
+    <!-- Sensor Nodes -->
+    <circle cx="20" cy="70" r="8" fill="#00FF9D"/>
+    <circle cx="120" cy="70" r="8" fill="#00FF9D"/>
+    <circle cx="120" cy="160" r="8" fill="#00FF9D"/>
+
+    <!-- LEAK ALERT NODE -->
+    <circle cx="180" cy="160" r="16" fill="rgba(255,50,50,0.2)"/>
+    <circle cx="180" cy="160" r="10" fill="#FF3366"/>
+    <circle cx="180" cy="160" r="4" fill="#FFFFFF"/>
+    
+    <text x="205" y="155" fill="#FF3366" font-family="monospace" font-weight="700" font-size="11">LEAK DETECTED</text>
+    <text x="205" y="170" fill="rgba(255,255,255,0.7)" font-family="system-ui" font-size="10">SECTOR 4B · PRESSURE DROP</text>
+
+    <!-- Normal node -->
+    <circle cx="220" cy="60" r="8" fill="#00FF9D"/>
+    <circle cx="320" cy="60" r="8" fill="#00FF9D"/>
+  </g>
+
+  <!-- Incident Response Action Bar -->
+  <g transform="translate(30, 270)">
+    <rect width="360" height="42" rx="12" fill="rgba(255,51,102,0.15)" stroke="rgba(255,51,102,0.4)"/>
+    <text x="180" y="26" fill="#FF3366" font-family="system-ui" font-weight="700" font-size="12" text-anchor="middle">AUTOMATED SHUTOFF VALVE TRIGGERED</text>
+  </g>
+</svg>

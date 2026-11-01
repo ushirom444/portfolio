@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="campusBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1A28" />
+      <stop offset="100%" stop-color="#040C14" />
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="230" fill="url(#campusBg1)" rx="24"/>
+  <rect x="1" y="1" width="418" height="228" fill="none" stroke="rgba(20,184,166,0.3)" stroke-width="1.5" rx="23"/>
+
+  <!-- Classroom Beacon graphic -->
+  <g transform="translate(35, 45)">
+    <circle cx="55" cy="55" r="45" fill="rgba(20,184,166,0.1)" stroke="#14B8A6" stroke-width="2"/>
+    <circle cx="55" cy="55" r="30" fill="rgba(59,130,246,0.2)"/>
+    <text x="55" y="62" fill="#14B8A6" font-family="system-ui" font-size="24" text-anchor="middle">📡</text>
+    <text x="55" y="120" fill="#FFFFFF" font-family="monospace" font-size="9" text-anchor="middle">RFID BEACON #C4</text>
+  </g>
+
+  <!-- Right text info -->
+  <g transform="translate(170, 45)">
+    <text x="0" y="20" fill="#14B8A6" font-family="monospace" font-size="10" letter-spacing="1">SMART LECTURE HALL 201</text>
+    <text x="0" y="45" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">RFID ATTENDANCE</text>
+    
+    <rect x="0" y="65" width="215" height="40" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(20,184,166,0.2)"/>
+    <text x="12" y="88" fill="#00FF9D" font-family="system-ui" font-size="11" font-weight="600">62/65 STUDENTS CHECKED IN</text>
+
+    <rect x="0" y="115" width="215" height="40" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(59,130,246,0.2)"/>
+    <text x="12" y="138" fill="#3B82F6" font-family="system-ui" font-size="11">AC 24°C · PROJECTOR 4K ACTIVE</text>
+  </g>
+</svg>

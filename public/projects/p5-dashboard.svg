@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p5TallBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0920" />
+      <stop offset="50%" stop-color="#1B1038" />
+      <stop offset="100%" stop-color="#07040E" />
+    </linearGradient>
+    <linearGradient id="p5PurpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9D4EDD" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="580" fill="url(#p5TallBg)" rx="32"/>
+  <rect x="1" y="1" width="718" height="578" fill="none" stroke="rgba(157,78,221,0.25)" stroke-width="2" rx="31"/>
+
+  <!-- Header -->
+  <g transform="translate(35, 30)">
+    <rect width="650" height="52" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(157,78,221,0.2)"/>
+    <text x="25" y="33" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="16" letter-spacing="1">MULTI-SECTOR ENTERPRISE HR &amp; LEAVE SYSTEM</text>
+    <rect x="520" y="12" width="115" height="28" rx="14" fill="url(#p5PurpleGrad)"/>
+    <text x="577" y="30" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">HR ADMIN</text>
+  </g>
+
+  <!-- 3 Stats cards -->
+  <g transform="translate(35, 100)">
+    <rect width="195" height="90" rx="16" fill="rgba(157,78,221,0.05)" stroke="rgba(157,78,221,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">ON LEAVE TODAY</text>
+    <text x="20" y="60" fill="#9D4EDD" font-family="system-ui" font-size="24" font-weight="800">18 / 420</text>
+    <text x="20" y="78" fill="#00FF9D" font-family="system-ui" font-size="10">95.7% Workforce Active</text>
+  </g>
+
+  <g transform="translate(250, 100)">
+    <rect width="195" height="90" rx="16" fill="rgba(157,78,221,0.05)" stroke="rgba(157,78,221,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">PENDING REQUESTS</text>
+    <text x="20" y="60" fill="#00F0FF" font-family="system-ui" font-size="24" font-weight="800">07 IN QUEUE</text>
+    <text x="20" y="78" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10">Avg Resolution: 2 hrs</text>
+  </g>
+
+  <g transform="translate(465, 100)">
+    <rect width="220" height="90" rx="16" fill="rgba(157,78,221,0.05)" stroke="rgba(157,78,221,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">DEPARTMENT SECTORS</text>
+    <text x="20" y="60" fill="#FFFFFF" font-family="system-ui" font-size="24" font-weight="800">08 SECTORS</text>
+    <text x="20" y="78" fill="#9D4EDD" font-family="system-ui" font-size="10">● Engineering, Finance, Ops</text>
+  </g>
+
+  <!-- Big Interactive Monthly Calendar & Heatmap -->
+  <g transform="translate(35, 210)">
+    <rect width="650" height="330" rx="20" fill="rgba(15,10,30,0.8)" stroke="rgba(157,78,221,0.15)"/>
+    <text x="30" y="35" fill="#9D4EDD" font-family="monospace" font-size="11">ORGANIZATIONAL ATTENDANCE MATRIX</text>
+
+    <!-- Calendar Days Grid (5 cols x 4 rows) -->
+    <g transform="translate(30, 60)">
+      <!-- Render 20 mini calendar blocks -->
+      <rect x="0" y="0" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="12" y="26" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Mon 14</text>
+      <text x="65" y="26" fill="#00FF9D" font-family="monospace" font-size="9">98% PRES</text>
+
+      <rect x="120" y="0" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="132" y="26" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Tue 15</text>
+      <text x="185" y="26" fill="#00FF9D" font-family="monospace" font-size="9">96% PRES</text>
+
+      <rect x="240" y="0" width="105" height="45" rx="8" fill="rgba(157,78,221,0.15)" stroke="#9D4EDD"/>
+      <text x="252" y="26" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Wed 16</text>
+      <text x="305" y="26" fill="#9D4EDD" font-family="monospace" font-size="9">4 ON LV</text>
+
+      <rect x="360" y="0" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="372" y="26" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Thu 17</text>
+      <text x="425" y="26" fill="#00FF9D" font-family="monospace" font-size="9">97% PRES</text>
+
+      <rect x="480" y="0" width="105" height="45" rx="8" fill="rgba(0,240,255,0.08)" stroke="#00F0FF"/>
+      <text x="492" y="26" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Fri 18</text>
+      <text x="545" y="26" fill="#00F0FF" font-family="monospace" font-size="9">WFH 80%</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="60" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="12" y="86" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Mon 21</text>
+      <text x="65" y="86" fill="#00FF9D" font-family="monospace" font-size="9">99% PRES</text>
+
+      <rect x="120" y="60" width="105" height="45" rx="8" fill="rgba(157,78,221,0.15)" stroke="#9D4EDD"/>
+      <text x="132" y="86" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Tue 22</text>
+      <text x="185" y="86" fill="#9D4EDD" font-family="monospace" font-size="9">6 ON LV</text>
+
+      <rect x="240" y="60" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="252" y="86" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Wed 23</text>
+      <text x="305" y="86" fill="#00FF9D" font-family="monospace" font-size="9">98% PRES</text>
+
+      <rect x="360" y="60" width="105" height="45" rx="8" fill="rgba(0,255,157,0.08)" stroke="#00FF9D"/>
+      <text x="372" y="86" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Thu 24</text>
+      <text x="425" y="86" fill="#00FF9D" font-family="monospace" font-size="9">96% PRES</text>
+
+      <rect x="480" y="60" width="105" height="45" rx="8" fill="rgba(0,240,255,0.08)" stroke="#00F0FF"/>
+      <text x="492" y="86" fill="#FFFFFF" font-family="system-ui" font-size="11" font-weight="700">Fri 25</text>
+      <text x="545" y="86" fill="#00F0FF" font-family="monospace" font-size="9">WFH 85%</text>
+    </g>
+
+    <!-- Bottom Department Filter Banner -->
+    <g transform="translate(30, 200)">
+      <rect width="590" height="100" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="25" y="32" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="13">ROLE-BASED PERMISSION &amp; MULTI-TENANT ARCHITECTURE</text>
+      <text x="25" y="52" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="11">Automated balance deduction · Google/Outlook Calendar Sync · Android/iOS Mobile App Ready</text>
+      <rect x="25" y="65" width="130" height="24" rx="6" fill="url(#p5PurpleGrad)"/>
+      <text x="90" y="81" fill="#0C0C0C" font-family="system-ui" font-weight="800" font-size="10" text-anchor="middle">SYNC ATTENDANCE</text>
+    </g>
+  </g>
+</svg>

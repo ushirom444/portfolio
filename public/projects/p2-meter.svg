@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="waterBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05192D" />
+      <stop offset="100%" stop-color="#020B14" />
+    </linearGradient>
+    <linearGradient id="cyanArc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="230" fill="url(#waterBg1)" rx="24"/>
+  <rect x="1" y="1" width="418" height="228" fill="none" stroke="rgba(0,240,255,0.3)" stroke-width="1.5" rx="23"/>
+
+  <!-- Water Meter Gauge -->
+  <g transform="translate(90, 115)">
+    <circle cx="0" cy="0" r="65" fill="rgba(0,240,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+    <path d="M -50 35 A 65 65 0 1 1 50 35" fill="none" stroke="url(#cyanArc)" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Meter Needle -->
+    <line x1="0" y1="0" x2="25" y2="-40" stroke="#00F0FF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="7" fill="#00F0FF"/>
+
+    <text x="0" y="20" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="16" text-anchor="middle">3.4</text>
+    <text x="0" y="34" fill="#00F0FF" font-family="monospace" font-size="9" text-anchor="middle">L/SEC</text>
+  </g>
+
+  <!-- Right text stats -->
+  <g transform="translate(195, 45)">
+    <text x="0" y="20" fill="#00F0FF" font-family="monospace" font-size="11" letter-spacing="1">IOT SENSOR #WTR-89</text>
+    <text x="0" y="45" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">FLOW RATE OPTIMAL</text>
+    
+    <rect x="0" y="65" width="195" height="40" rx="10" fill="rgba(0,255,157,0.1)" stroke="rgba(0,255,157,0.3)"/>
+    <text x="12" y="88" fill="#00FF9D" font-family="system-ui" font-size="11" font-weight="600">PRESSURE: 48.2 PSI (NORMAL)</text>
+
+    <rect x="0" y="115" width="195" height="40" rx="10" fill="rgba(0,240,255,0.06)" stroke="rgba(0,240,255,0.15)"/>
+    <text x="12" y="138" fill="#FFFFFF" font-family="system-ui" font-size="11">TURBIDITY: 0.8 NTU · PURITY 99%</text>
+  </g>
+</svg>

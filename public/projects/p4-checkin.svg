@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hotelBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B1710" />
+      <stop offset="100%" stop-color="#0E0B07" />
+    </linearGradient>
+    <linearGradient id="champagne" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2C08D" />
+      <stop offset="100%" stop-color="#AA8855" />
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="230" fill="url(#hotelBg1)" rx="24"/>
+  <rect x="1" y="1" width="418" height="228" fill="none" stroke="rgba(226,192,141,0.3)" stroke-width="1.5" rx="23"/>
+
+  <!-- Keycard graphic -->
+  <g transform="translate(35, 40)">
+    <rect width="140" height="150" rx="14" fill="url(#champagne)"/>
+    <circle cx="70" cy="50" r="18" fill="#1B1710"/>
+    <text x="70" y="55" fill="#E2C08D" font-family="system-ui" font-weight="800" font-size="16" text-anchor="middle">★</text>
+    <text x="70" y="95" fill="#1B1710" font-family="system-ui" font-weight="800" font-size="13" text-anchor="middle">SUITE 508</text>
+    <text x="70" y="110" fill="#3D301F" font-family="monospace" font-size="9" text-anchor="middle">NFC RFID ACTIVE</text>
+    <line x1="20" y1="130" x2="120" y2="130" stroke="#1B1710" stroke-width="2"/>
+  </g>
+
+  <!-- Reservation info -->
+  <g transform="translate(200, 45)">
+    <text x="0" y="20" fill="#E2C08D" font-family="monospace" font-size="10" letter-spacing="1.5">ROYAL HORIZON RESORT</text>
+    <text x="0" y="45" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="18">GUEST CHECK-IN</text>
+    <text x="0" y="65" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="11">Stay: 3 Nights · 2 Guests</text>
+
+    <rect x="0" y="85" width="185" height="45" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(226,192,141,0.2)"/>
+    <text x="12" y="105" fill="#E2C08D" font-family="system-ui" font-size="11" font-weight="600">DELUXE OCEAN VIEW</text>
+    <text x="12" y="120" fill="rgba(255,255,255,0.6)" font-family="monospace" font-size="9">$320.00 / NIGHT</text>
+  </g>
+</svg>

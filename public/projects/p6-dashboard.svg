@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p6TallBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06121D" />
+      <stop offset="50%" stop-color="#0D2236" />
+      <stop offset="100%" stop-color="#02080F" />
+    </linearGradient>
+    <linearGradient id="p6TealBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="580" fill="url(#p6TallBg)" rx="32"/>
+  <rect x="1" y="1" width="718" height="578" fill="none" stroke="rgba(20,184,166,0.25)" stroke-width="2" rx="31"/>
+
+  <!-- Top Navigation -->
+  <g transform="translate(35, 30)">
+    <rect width="650" height="52" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(20,184,166,0.2)"/>
+    <text x="25" y="33" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="16" letter-spacing="1">SMART CAMPUS OS // DIGITAL UNIVERSITY</text>
+    <rect x="510" y="12" width="125" height="28" rx="14" fill="url(#p6TealBlue)"/>
+    <text x="572" y="30" fill="#FFFFFF" font-family="system-ui" font-weight="800" font-size="11" text-anchor="middle">STUDENT PORTAL</text>
+  </g>
+
+  <!-- 3 Top Stats -->
+  <g transform="translate(35, 100)">
+    <rect width="195" height="90" rx="16" fill="rgba(20,184,166,0.05)" stroke="rgba(20,184,166,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">ENROLLED STUDENTS</text>
+    <text x="20" y="60" fill="#14B8A6" font-family="system-ui" font-size="24" font-weight="800">8,950</text>
+    <text x="20" y="78" fill="#00FF9D" font-family="system-ui" font-size="10">● 92% Campus Attendance</text>
+  </g>
+
+  <g transform="translate(250, 100)">
+    <rect width="195" height="90" rx="16" fill="rgba(59,130,246,0.05)" stroke="rgba(59,130,246,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">CONNECTED IOT LABS</text>
+    <text x="20" y="60" fill="#3B82F6" font-family="system-ui" font-size="24" font-weight="800">42 LABS</text>
+    <text x="20" y="78" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10">100% Automated Access</text>
+  </g>
+
+  <g transform="translate(465, 100)">
+    <rect width="220" height="90" rx="16" fill="rgba(20,184,166,0.05)" stroke="rgba(20,184,166,0.2)"/>
+    <text x="20" y="30" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="10" font-weight="600">LIVE NOTIFICATIONS</text>
+    <text x="20" y="60" fill="#FFFFFF" font-family="system-ui" font-size="24" font-weight="800">NO DELAYS</text>
+    <text x="20" y="78" fill="#00FF9D" font-family="system-ui" font-size="10">Timetables Synchronized</text>
+  </g>
+
+  <!-- Big Interactive 3D Isometric Campus Map -->
+  <g transform="translate(35, 210)">
+    <rect width="650" height="330" rx="20" fill="rgba(6,18,30,0.8)" stroke="rgba(20,184,166,0.15)"/>
+    <text x="30" y="35" fill="#14B8A6" font-family="monospace" font-size="11">ISOMETRIC CAMPUS DIGITAL TWIN</text>
+
+    <!-- Isometric building blocks -->
+    <!-- Engineering Block -->
+    <g transform="translate(180, 140)">
+      <polygon points="0,-40 60,-10 0,20 -60,-10" fill="#14B8A6" opacity="0.8"/>
+      <polygon points="-60,-10 0,20 0,70 -60,40" fill="#0F766E"/>
+      <polygon points="0,20 60,-10 60,40 0,70" fill="#115E59"/>
+      <text x="0" y="-48" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="11" text-anchor="middle">CSE &amp; AI BLOCK</text>
+      <circle cx="0" cy="0" r="5" fill="#00FF9D"/>
+    </g>
+
+    <!-- Central Library -->
+    <g transform="translate(340, 100)">
+      <polygon points="0,-35 50,-10 0,15 -50,-10" fill="#3B82F6" opacity="0.8"/>
+      <polygon points="-50,-10 0,15 0,60 -50,35" fill="#1D4ED8"/>
+      <polygon points="0,15 50,-10 50,35 0,60" fill="#1E40AF"/>
+      <text x="0" y="-42" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="11" text-anchor="middle">CENTRAL LIBRARY</text>
+      <circle cx="0" cy="0" r="5" fill="#00F0FF"/>
+    </g>
+
+    <!-- Student Center & Hostel -->
+    <g transform="translate(480, 160)">
+      <polygon points="0,-30 45,-10 0,10 -45,-10" fill="#6366F1" opacity="0.8"/>
+      <polygon points="-45,-10 0,10 0,50 -45,30" fill="#4338CA"/>
+      <polygon points="0,10 45,-10 45,30 0,50" fill="#3730A3"/>
+      <text x="0" y="-36" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="11" text-anchor="middle">SMART AUDITORIUM</text>
+      <circle cx="0" cy="0" r="5" fill="#A855F7"/>
+    </g>
+
+    <!-- Connecting Campus Pathway Grid -->
+    <path d="M120 220 L 180 180 L 340 140 L 480 200 L 580 240" fill="none" stroke="rgba(20,184,166,0.4)" stroke-width="3" stroke-dasharray="6,4"/>
+
+    <!-- Bottom summary row -->
+    <g transform="translate(30, 240)">
+      <rect width="590" height="70" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="25" y="28" fill="#FFFFFF" font-family="system-ui" font-weight="700" font-size="12">FEATURES IMPLEMENTED</text>
+      <text x="25" y="48" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="11">Automated Lecture Attendance · Campus Navigation · IoT Smart Classroom Management · Digital IDs</text>
+    </g>
+  </g>
+</svg>
